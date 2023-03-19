@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    gap: 2rem;
+    .btn{
+        background-color: transparent;
+        border: 2px solid black;
+        padding: 0.8rem 2rem;
+        font-size: 1.8rem;
+        cursor: pointer;
+        border-radius: 10px;
+        &:hover{
+            background-color: #000;
+            color: #fff;
+            transition: all 0.4s;
+        }
+    }
+}
